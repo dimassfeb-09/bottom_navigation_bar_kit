@@ -1,0 +1,19 @@
+name: bottom_navigation_bar_kit
+description: A highly customizable Flutter bottom navigation bar package supporting 10 animation styles, light/dark mode, and Material 3 / Cupertino design systems.
+version: 1.0.0
+homepage: https://github.com/dimassfeb-09/bottom_navigation_bar_kit
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
