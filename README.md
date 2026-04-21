@@ -14,7 +14,7 @@ If you find this library helpful and want to support its development, you can bu
 
 [![Support Me on Ko-fi](https://img.shields.io/badge/Support%20Me%20on%20Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dimassfeb)
 
-> **Don't forget to star!** ⭐ If you like this library, please give it a star on [GitHub](https://github.com/dimassfeb-09/bottom_navigation_bar_kit) to help others discover it.
+> **Enjoying this library?** Please consider giving it a ⭐ on [GitHub](https://github.com/dimassfeb-09/bottom_navigation_bar_kit) to help it grow!
 
 ---
 
@@ -22,15 +22,17 @@ If you find this library helpful and want to support its development, you can bu
 
 | Sliding Pill | Underline Worm |
 |:---:|:---:|
-| <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/sliding_pill.mp4" width="280" autoplay loop muted playsinline></video> | <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/underline_worm.mp4" width="280" autoplay loop muted playsinline></video> |
+| Sliding Pill | Underline Worm |
+|:---:|:---:|
+| ![Sliding Pill](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/sliding_pill.gif) | ![Underline Worm](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/underline_worm.gif) |
 | **Bubble Pop** | **Top Bar Sweep** |
-| <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/bubble_pop.mp4" width="280" autoplay loop muted playsinline></video> | <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/top_bar_sweep.mp4" width="280" autoplay loop muted playsinline></video> |
+| ![Bubble Pop](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/bubble_pop.gif) | ![Top Bar Sweep](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/top_bar_sweep.gif) |
 | **Ink Drop** | **Morphing Icon** |
-| <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/ink_drop.mp4" width="280" autoplay loop muted playsinline></video> | <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/morphing_icon.mp4" width="280" autoplay loop muted playsinline></video> |
+| ![Ink Drop](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/ink_drop.gif) | ![Morphing Icon](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/morphing_icon.gif) |
 | **Floating Dot** | **Gradient Spotlight** |
-| <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/floating_dot_trail.mp4" width="280" autoplay loop muted playsinline></video> | <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/gradient_spotlight.mp4" width="280" autoplay loop muted playsinline></video> |
+| ![Floating Dot](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/floating_dot_trail.gif) | ![Gradient Spotlight](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/gradient_spotlight.gif) |
 | **Squeeze & Stretch** | **Neon Pulse** |
-| <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/squeeze_stretch.mp4" width="280" autoplay loop muted playsinline></video> | <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/neon_pulse.mp4" width="280" autoplay loop muted playsinline></video> |
+| ![Squeeze & Stretch](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/squeeze_stretch.gif) | ![Neon Pulse](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/neon_pulse.gif) |
 
 ---
 
@@ -164,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> {
 A smooth pill-shaped background slides horizontally to the active tab.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/sliding_pill.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/sliding_pill.gif" width="320" alt="Sliding Pill">
 </p>
 
 ```dart
@@ -206,7 +208,7 @@ SlidingPillBottomNav(
 An elastic underline bar stretches and snaps between tabs with a leading/trailing stagger for an organic "worm" feel. Includes a pill highlight and icon bounce on activation.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/underline_worm.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/underline_worm.gif" width="320" alt="Underline Worm">
 </p>
 
 ```dart
@@ -243,7 +245,7 @@ UnderlineWormBottomNav(
 A circular soft-tinted bubble expands behind the active icon with a satisfying bounce animation. Fully self-contained with `BubbleNavTheme`.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/bubble_pop.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/bubble_pop.gif" width="320" alt="Bubble Pop">
 </p>
 
 ```dart
@@ -286,7 +288,7 @@ BubblePopBottomNav(
 A bold indicator bar at the very top edge of the nav sweeps with an elastic overshoot to the selected tab. Supports a full-height column tint and icon scale pop.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/top_bar_sweep.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/top_bar_sweep.gif" width="320" alt="Top Bar Sweep">
 </p>
 
 ```dart
@@ -323,7 +325,7 @@ TopBarSweepBottomNav(
 A radial ripple expands from the tapped icon and fades out, leaving a persistent ambient glow behind the active tab.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/ink_drop.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/ink_drop.gif" width="320" alt="Ink Drop">
 </p>
 
 ```dart
@@ -358,7 +360,7 @@ InkDropBottomNav(
 Seamlessly crossfades between outline and filled icon variants. The icon IS the indicator — no external pill or bar. Features a dot indicator below the active tab.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/morphing_icon.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/morphing_icon.gif" width="320" alt="Morphing Icon">
 </p>
 
 ```dart
@@ -389,7 +391,7 @@ MorphingIconBottomNav(
 A dot arcs through the air in a parabolic trajectory from the previous tab to the newly selected one. The dot squishes and stretches at arc peak, and the icon bounces when the dot lands.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/floating_dot_trail.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/floating_dot_trail.gif" width="320" alt="Floating Dot">
 </p>
 
 ```dart
@@ -422,7 +424,7 @@ FloatingDotBottomNav(
 A radial gradient spotlight shifts smoothly behind the active tab, creating a "lit from below" atmosphere. Built with a `CustomPainter` for smooth, GPU-efficient animation.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/gradient_spotlight.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/gradient_spotlight.gif" width="320" alt="Gradient Spotlight">
 </p>
 
 ```dart
@@ -456,7 +458,7 @@ GradientSpotlightBottomNav(
 A bottom indicator bar dynamically squeezes narrow then stretches wide when a new tab is selected, with an elastic curve for a satisfying micro-interaction.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/squeeze_stretch.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/squeeze_stretch.gif" width="320" alt="Squeeze & Stretch">
 </p>
 
 ```dart
@@ -491,7 +493,7 @@ SqueezeStretchBottomNav(
 A pulsing neon glow effect radiates behind the active tab icon. Each tab gets its own neon color. Best used with dark backgrounds.
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/videos/neon_pulse.mp4" width="320" autoplay loop muted playsinline></video>
+  <img src="https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/neon_pulse.gif" width="320" alt="Neon Pulse">
 </p>
 
 ```dart
