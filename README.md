@@ -22,8 +22,6 @@ If you find this library helpful and want to support its development, you can bu
 
 | Sliding Pill | Underline Worm |
 |:---:|:---:|
-| Sliding Pill | Underline Worm |
-|:---:|:---:|
 | ![Sliding Pill](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/sliding_pill.gif) | ![Underline Worm](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/underline_worm.gif) |
 | **Bubble Pop** | **Top Bar Sweep** |
 | ![Bubble Pop](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/bubble_pop.gif) | ![Top Bar Sweep](https://raw.githubusercontent.com/dimassfeb-09/bottom_navigation_bar_kit/main/assets/gifs/top_bar_sweep.gif) |
